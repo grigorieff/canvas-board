@@ -1,0 +1,47 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+#debug-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18pt;
+}
+
+canvas.canvasBoard {
+    background-color: rgb(204, 204, 204);
+}
+
+div.tools-panel {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+div.tools-panel div.tool {
+    float: left;
+    height: 48px;
+    width: 48px;
+    margin-right: 10px;
+    background-repeat: no-repeat
+}
+
+div.tool.zoom_in {
+    background-image: url('../images/plus.png');
+}
+
+div.tool.zoom_out {
+    background-image: url('../images/minus.png');
+}
+
+div.tool.switch {
+    background-image: url('../images/switch.png');
+}
+
+.domBoard {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
